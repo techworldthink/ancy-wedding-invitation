@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ancy & Jobin — Wedding Invitation</title>
+  <meta name="description" content="You are warmly invited to celebrate Ancy & Jobin.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ancy & Jobin — Wedding Invitation">
+  <meta property="og:description" content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards.">
+  <meta property="og:image" content="preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ancy & Jobin — Wedding Invitation">
+  <meta name="twitter:description" content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards.">
+  <meta name="twitter:image" content="preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="language-switch" aria-label="Language">
+    <button data-lang="en" class="active">English</button>
+    <span>/</span>
+    <button data-lang="ml">മലയാളം</button>
+  </div>
+
+  <main class="stage">
+
+    <!-- Simple opening screen -->
+    <section class="intro" id="intro">
+      <div class="floral floral-left" aria-hidden="true">❋</div>
+      <div class="floral floral-right" aria-hidden="true">❋</div>
+
+      <div class="cross">✝</div>
+      <p class="eyebrow" data-i18n="eyebrow">With love & prayers</p>
+      <h1 data-i18n="title">You Are Cordially Invited</h1>
+      <p class="intro-text" data-i18n="intro">Please open this invitation</p>
+
+      <button class="envelope" id="openButton" aria-label="Open invitation">
+        <div class="envelope-paper">
+          <span class="mini-cross">✝</span>
+          <span data-i18n="miniInvitation">INVITATION</span>
+        </div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-body"></div>
+        <div class="seal">✝</div>
+      </button>
+
+      <button class="open-label" id="openLabel" data-i18n="open">Open Invitation</button>
+      <p class="hint" data-i18n="hint">Tap the envelope</p>
+    </section>
+
+    <!-- Main invitation -->
+    <section class="invitation" id="invitation" aria-hidden="true">
+      <div class="paper">
+        <div class="paper-cross">✝</div>
+
+        <p class="small-kicker" data-i18n="kicker">WEDDING INVITATION</p>
+        <h2 class="names">Ancy <span>&amp;</span> Jobin</h2>
+        <p class="welcome" data-i18n="welcome">You are warmly invited to celebrate with us</p>
+
+        <div class="ornament">❦</div>
+
+        <div class="details">
+          <div class="detail">
+            <div class="icon">▣</div>
+            <span class="label" data-i18n="dateLabel">DATE</span>
+            <strong>26</strong>
+            <span data-i18n="month">OCTOBER 2026</span>
+            <span data-i18n="weekday">MONDAY</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="detail location">
+            <div class="icon">⌖</div>
+            <span class="label" data-i18n="venueLabel">CHURCH</span>
+            <strong data-i18n="venue">St. Christopher Church</strong>
+            <span data-i18n="place">Chavadimukku, Sreekaryam</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="detail">
+            <div class="icon">◷</div>
+            <span class="label" data-i18n="timeLabel">TIME</span>
+            <strong>10:30 AM</strong>
+            <span data-i18n="service">Wedding Service</span>
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <section class="reception">
+          <div class="reception-icon">♧</div>
+          <p class="reception-title" data-i18n="receptionTitle">RECEPTION</p>
+          <h3 data-i18n="receptionDate">25 October 2026</h3>
+          <p class="reception-time" data-i18n="receptionTime">4:00 PM onwards</p>
+          <p class="reception-place">
+            <span data-i18n="at">at</span>
+            <strong data-i18n="venue">St. Christopher Church</strong><br>
+            <span data-i18n="place">Chavadimukku, Sreekaryam</span>
+          </p>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="countdown-wrap" id="countdown">
+          <p class="countdown-title" data-i18n="countdownTitle">Counting down to the wedding</p>
+          <div class="timer">
+            <div class="time-box"><span id="cd-days" class="num">00</span><span data-i18n="days">Days</span></div>
+            <div class="time-box"><span id="cd-hours" class="num">00</span><span data-i18n="hours">Hours</span></div>
+            <div class="time-box"><span id="cd-mins" class="num">00</span><span data-i18n="minutes">Minutes</span></div>
+            <div class="time-box"><span id="cd-secs" class="num">00</span><span data-i18n="seconds">Seconds</span></div>
+          </div>
+        </section>
+
+        <section class="map-card">
+          <div class="map-icon">⌖</div>
+          <div>
+            <p class="map-title" data-i18n="mapTitle">CHURCH LOCATION</p>
+            <strong data-i18n="venue">St. Christopher Church</strong>
+            <p data-i18n="placeFull">Chavadimukku, Sreekaryam, Thiruvananthapuram, Kerala</p>
+          </div>
+          <a class="map-button"
+             href="https://www.google.com/maps/search/?api=1&query=St.+Christopher+Church%2C+Chavadimukku%2C+Sreekaryam%2C+Thiruvananthapuram%2C+Kerala+695017"
+             target="_blank" rel="noopener noreferrer">
+            <span>⌖</span>
+            <span data-i18n="viewMap">View on Google Maps</span>
+          </a>
+        </section>
+
+        <p class="closing" data-i18n="closing">With love and prayers</p>
+
+        <button class="close-button" id="closeButton" data-i18n="close">Close Invitation</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
