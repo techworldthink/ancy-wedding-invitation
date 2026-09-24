@@ -1,237 +1,120 @@
 <!doctype html>
 <html lang="en">
-
-
-<!doctype html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Page Information -->
-  <title>Ancy & Jobin — Wedding Invitation</title>
-
-  <meta
-    name="description"
-    content="You are warmly invited to celebrate Ancy & Jobin."
-  >
-
-  <!-- Canonical URL -->
-  <link
-    rel="canonical"
-    href="https://techworldthink.github.io/ancy-wedding-invitation/"
-  >
-
-  <!-- =========================
-       Open Graph / WhatsApp / Facebook
-       ========================= -->
-
-  <meta property="og:type" content="website">
-
-  <meta
-    property="og:site_name"
-    content="Ancy & Jobin Wedding Invitation"
-  >
-
-  <meta
-    property="og:title"
-    content="Ancy & Jobin — Wedding Invitation"
-  >
-
-  <meta
-    property="og:description"
-    content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards."
-  >
-
-  <!-- IMPORTANT: use the FULL public URL -->
-  <meta
-    property="og:image"
-    content="https://techworldthink.github.io/ancy-wedding-invitation/preview.jpg?v=3"
-  >
-
-  <meta
-    property="og:image:type"
-    content="image/jpeg"
-  >
-
-  <meta
-    property="og:image:width"
-    content="1600"
-  >
-
-  <meta
-    property="og:image:height"
-    content="900"
-  >
-
-  <meta
-    property="og:url"
-    content="https://techworldthink.github.io/ancy-wedding-invitation/"
-  >
-
-  <!-- =========================
-       Twitter / X
-       ========================= -->
-
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
-  >
-
-  <meta
-    name="twitter:title"
-    content="Ancy & Jobin — Wedding Invitation"
-  >
-
-  <meta
-    name="twitter:description"
-    content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards."
-  >
-
-  <meta
-    name="twitter:image"
-    content="https://techworldthink.github.io/ancy-wedding-invitation/preview.jpg?v=3"
-  >
-
-  <!-- =========================
-       Google Fonts
-       ========================= -->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ancy &amp; Jobin — Wedding Invitation</title>
+<meta name="description" content="You are warmly invited to celebrate Ancy &amp; Jobin.">
+<link rel="canonical" href="https://techworldthink.github.io/ancy-wedding-invitation/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ancy &amp; Jobin Wedding Invitation">
+<meta property="og:title" content="Ancy &amp; Jobin — Wedding Invitation">
+<meta property="og:description" content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards.">
+<meta property="og:image" content="https://techworldthink.github.io/ancy-wedding-invitation/preview.jpg?v=4">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="900">
+<meta property="og:url" content="https://techworldthink.github.io/ancy-wedding-invitation/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ancy &amp; Jobin — Wedding Invitation">
+<meta name="twitter:description" content="Wedding: 26 October 2026 at 10:30 AM. Reception: 25 October 2026 from 4 PM onwards.">
+<meta name="twitter:image" content="https://techworldthink.github.io/ancy-wedding-invitation/preview.jpg?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="language-switch" aria-label="Language">
-    <button data-lang="en" class="active">English</button>
-    <span>/</span>
-    <button data-lang="ml">മലയാളം</button>
-  </div>
+<audio id="weddingMusic" src="audio.mp3" preload="auto" loop></audio>
 
-  <main class="stage">
+<div class="language-switch" aria-label="Language">
+<button type="button" data-lang="en" class="active">English</button><span>/</span>
+<button type="button" data-lang="ml">മലയാളം</button>
+</div>
 
-    <!-- Simple opening screen -->
-    <section class="intro" id="intro">
-      <!-- <div class="floral floral-left" aria-hidden="true">❋</div>
-      <div class="floral floral-right" aria-hidden="true">❋</div> -->
+<main class="stage">
+<section class="intro" id="intro">
+<div class="cross">✝</div>
+<p class="eyebrow" data-i18n="eyebrow">With love &amp; prayers</p>
+<h1 data-i18n="title">You Are Cordially Invited</h1>
+<p class="intro-text" data-i18n="intro">Please open this invitation</p>
+<button class="envelope" id="openButton" type="button" aria-label="Open invitation">
+<div class="envelope-paper"><span class="mini-cross">✝</span><span data-i18n="miniInvitation">INVITATION</span></div>
+<div class="envelope-flap"></div><div class="envelope-body"></div><div class="seal">✝</div>
+</button>
+<button class="open-label" id="openLabel" type="button" data-i18n="open">Open Invitation</button>
+<p class="hint" data-i18n="hint">Tap the envelope</p>
+</section>
 
-      <div class="cross">✝</div>
-      <p class="eyebrow" data-i18n="eyebrow">With love & prayers</p>
-      <h1 data-i18n="title">You Are Cordially Invited</h1>
-      <p class="intro-text" data-i18n="intro">Please open this invitation</p>
+<section class="invitation" id="invitation" aria-hidden="true">
+<div class="paper">
+<div class="paper-cross">✝</div>
+<p class="small-kicker" data-i18n="kicker">WEDDING INVITATION</p>
 
-      <button class="envelope" id="openButton" aria-label="Open invitation">
-        <div class="envelope-paper">
-          <span class="mini-cross">✝</span>
-          <span data-i18n="miniInvitation">INVITATION</span>
-        </div>
-        <div class="envelope-flap"></div>
-        <div class="envelope-body"></div>
-        <div class="seal">✝</div>
-      </button>
+<section class="couple-introduction bride-side">
+<div class="parents-block"><div class="parents-names">Sri. D. Mahesadas &amp; Smt. S. Bindu</div></div>
+<div class="family-ornament">❧</div>
+<p class="dear-line">Dear Sir / Madam,</p>
+<p class="relationship-line">Our daughter</p>
+<h2 class="person-name">Ancy B</h2>
+<br>
+<p class="relationship-line after-name">is getting married to</p>
+<h2 class="person-name groom-name">Jobin J</h2>
+<br>
+<p class="relationship-line groom-parents">S/o Joy R. &amp; Suja E.T.</p>
+</section>
 
-      <button class="open-label" id="openLabel" data-i18n="open">Open Invitation</button>
-      <p class="hint" data-i18n="hint">Tap the envelope</p>
-    </section>
+<div class="section-divider"></div>
 
-    <!-- Main invitation -->
-    <section class="invitation" id="invitation" aria-hidden="true">
-      <div class="paper">
-        <div class="paper-cross">✝</div>
+<div class="details">
+<div class="detail"><div class="icon">▣</div><span class="label" data-i18n="dateLabel">DATE</span><strong>26</strong><span data-i18n="month">OCTOBER 2026</span><span data-i18n="weekday">MONDAY</span></div>
+<div class="divider"></div>
+<div class="detail"><div class="icon">⌖</div><span class="label" data-i18n="venueLabel">CHURCH</span><strong data-i18n="venue">St. Christopher Church</strong><span data-i18n="place">Chavadimukku, Sreekaryam</span></div>
+<div class="divider"></div>
+<div class="detail"><div class="icon">◷</div><span class="label" data-i18n="timeLabel">TIME</span><strong>10:30 AM</strong><span data-i18n="service">Wedding Service</span></div>
+</div>
 
-        <p class="small-kicker" data-i18n="kicker">WEDDING INVITATION</p>
-        <h2 class="names">Ancy <span>&amp;</span> Jobin</h2>
-        <p class="welcome" data-i18n="welcome">You are warmly invited to celebrate with us</p>
+<div class="section-divider"></div>
 
-        <div class="ornament">❦</div>
+<section class="message-section">
+<p class="message-text" data-i18n="message">We warmly request the honor of your presence with family to grace the holy wedding ceremony and the reception following at the church hall.</p>
+<p class="message-closing">With love,<strong>Sri. D. Mahesadas &amp; Smt. S. Bindu</strong></p>
+</section>
 
-        <div class="details">
-          <div class="detail">
-            <div class="icon">▣</div>
-            <span class="label" data-i18n="dateLabel">DATE</span>
-            <strong>26</strong>
-            <span data-i18n="month">OCTOBER 2026</span>
-            <span data-i18n="weekday">MONDAY</span>
-          </div>
+<div class="section-divider"></div>
 
-          <div class="divider"></div>
+<section class="reception">
+<div class="reception-icon">♧</div>
+<p class="reception-title" data-i18n="receptionTitle">RECEPTION</p>
+<h3 data-i18n="receptionDate">25 October 2026</h3>
+<p class="reception-time" data-i18n="receptionTime">4:00 PM onwards</p>
+<br>
+<p class="reception-place"><strong data-i18n="receptionVenue">St. Christopher Church Hall</strong><br><span data-i18n="place">Chavadimukku, Sreekaryam</span></p>
+</section>
 
-          <div class="detail location">
-            <div class="icon">⌖</div>
-            <span class="label" data-i18n="venueLabel">CHURCH</span>
-            <strong data-i18n="venue">St. Christopher Church</strong>
-            <span data-i18n="place">Chavadimukku, Sreekaryam</span>
-          </div>
+<div class="section-divider"></div>
 
-          <div class="divider"></div>
+<section class="countdown-wrap" id="countdown">
+<p class="countdown-title" data-i18n="countdownTitle">Counting down to the wedding</p>
+<div class="timer">
+<div class="time-box"><span id="cd-days" class="num">00</span><span data-i18n="days">Days</span></div>
+<div class="time-box"><span id="cd-hours" class="num">00</span><span data-i18n="hours">Hours</span></div>
+<div class="time-box"><span id="cd-mins" class="num">00</span><span data-i18n="minutes">Minutes</span></div>
+<div class="time-box"><span id="cd-secs" class="num">00</span><span data-i18n="seconds">Seconds</span></div>
+</div>
+</section>
 
-          <div class="detail">
-            <div class="icon">◷</div>
-            <span class="label" data-i18n="timeLabel">TIME</span>
-            <strong>10:30 AM</strong>
-            <span data-i18n="service">Wedding Service</span>
-          </div>
-        </div>
+<section class="map-card">
+<div class="map-icon">⌖</div>
+<div><p class="map-title" data-i18n="mapTitle">CHURCH LOCATION</p><strong data-i18n="venue">St. Christopher Church</strong><p data-i18n="placeFull">Chavadimukku, Sreekaryam, Thiruvananthapuram, Kerala</p></div>
+<a class="map-button" href="https://www.google.com/maps/search/?api=1&amp;query=St.+Christopher+Church%2C+Chavadimukku%2C+Sreekaryam%2C+Thiruvananthapuram%2C+Kerala+695017" target="_blank" rel="noopener noreferrer"><span>⌖</span><span data-i18n="viewMap">View on Google Maps</span></a>
+</section>
 
-        <div class="section-divider"></div>
-
-        <section class="reception">
-          <div class="reception-icon">♧</div>
-          <p class="reception-title" data-i18n="receptionTitle">RECEPTION</p>
-          <h3 data-i18n="receptionDate">25 October 2026</h3>
-          <br>
-          <p class="reception-time" data-i18n="receptionTime">4:00 PM onwards</p>
-          <p class="reception-place">
-            <!-- <span data-i18n="at">at</span> -->
-            <strong data-i18n="receptionVenue">St. Christopher Church Hall</strong><br>
-            <span data-i18n="place">Chavadimukku, Sreekaryam</span>
-          </p>
-        </section>
-
-        <div class="section-divider"></div>
-
-        <section class="countdown-wrap" id="countdown">
-          <p class="countdown-title" data-i18n="countdownTitle">Counting down to the wedding</p>
-          <div class="timer">
-            <div class="time-box"><span id="cd-days" class="num">00</span><span data-i18n="days">Days</span></div>
-            <div class="time-box"><span id="cd-hours" class="num">00</span><span data-i18n="hours">Hours</span></div>
-            <div class="time-box"><span id="cd-mins" class="num">00</span><span data-i18n="minutes">Minutes</span></div>
-            <div class="time-box"><span id="cd-secs" class="num">00</span><span data-i18n="seconds">Seconds</span></div>
-          </div>
-        </section>
-
-        <section class="map-card">
-          <div class="map-icon">⌖</div>
-          <div>
-            <p class="map-title" data-i18n="mapTitle">CHURCH LOCATION</p>
-            <strong data-i18n="venue">St. Christopher Church</strong>
-            <p data-i18n="placeFull">Chavadimukku, Sreekaryam, Thiruvananthapuram, Kerala</p>
-          </div>
-          <a class="map-button"
-             href="https://www.google.com/maps/search/?api=1&query=St.+Christopher+Church%2C+Chavadimukku%2C+Sreekaryam%2C+Thiruvananthapuram%2C+Kerala+695017"
-             target="_blank" rel="noopener noreferrer">
-            <span>⌖</span>
-            <span data-i18n="viewMap">View on Google Maps</span>
-          </a>
-        </section>
-
-        <p class="closing" data-i18n="closing">With love and prayers</p>
-
-        <button class="close-button" id="closeButton" data-i18n="close">Close Invitation</button>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+<p class="closing" data-i18n="closing">With love and prayers</p>
+<button class="close-button" id="closeButton" type="button" data-i18n="close">Close Invitation</button>
+</div>
+</section>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
